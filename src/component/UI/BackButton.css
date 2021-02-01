@@ -1,0 +1,45 @@
+#dv-back-button label {
+  position: absolute;
+  left: 10px;
+}
+
+#button-back-icon {
+  width: 32px;
+  height: 40px;
+}
+
+#button-back-icon span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#button-back-icon span:nth-child(2) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#button-back-icon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  top: 20px;
+}
+
+#button-back-icon span:nth-child(1){
+  top: 26px;
+  width: 18px;
+  left: -2px;
+}
+#button-back-icon span:nth-child(2) {
+  top: 14px;
+  width: 18px;
+  left: -2px;
+}

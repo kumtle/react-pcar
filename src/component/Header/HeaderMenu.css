@@ -1,0 +1,16 @@
+#dv-header-menu {
+  height: var(--header-height);
+  background-color: white;
+  border-bottom: solid #b7b7b7 1px;
+}
+
+#dv-header-menu .table{
+  display: table;
+}
+#dv-header-menu .cell{
+  display: table-cell;
+}
+
+#dv-header-menu.hidden {
+  display: none;
+}

@@ -1,0 +1,15 @@
+#dv-body {
+/*  height: calc(100vh - 80px);*/
+  width: 100vw;
+  padding-bottom: 60px;
+  /*padding-top: 10px;*/
+}
+
+body {
+  background-color: #efefef;
+}
+
+iframe {
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,71 @@
+#dv-tour-detail img {
+  max-width: 100%;
+}
+#dv-tour-detail li{
+  list-style: none;
+  max-width: 100%;
+}
+
+#dv-tour-detail .inner-box{
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+#dv-tour-detail {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#dv-tour-detail-tab {
+  margin-bottom: 50px;
+}
+
+#dv-tour-detail-tab span {
+  display: inline-block;
+  background-color: white;
+  background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(209,209,209,1) 100%);
+  width: calc((100vw - 2px) * 0.3333);
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  color: transparent;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  position:relative;
+}
+
+#dv-tour-detail-tab span div {
+  color: black;
+}
+
+#dv-tour-detail-tab span.on div {
+  color: white;
+  font-weight: bold;
+}
+
+#dv-tour-detail-tab span.on{
+  background: black;
+  color: black;
+}
+
+#dv-tour-detail-tab span.on::after{
+  content: "";
+  border-top: 8px solid;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 0px solid transparent;
+  bottom: -8px;
+  left: calc(50% - 8px);
+  position: absolute;
+}
+
+#dv-tour-detail-tab .line {
+  width: 1px;
+  display: inline-block;
+}
+
+#dv-tour-detail .nodisplay {
+  display: none;
+}

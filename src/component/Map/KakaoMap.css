@@ -1,0 +1,63 @@
+#dv-iframe {
+  width: 100vw;
+  height: calc(100vh - var(--border-top));
+  top: var(--border-top);
+  border: 0;
+}
+
+#dv-kakaomap-header {
+  max-width: 100vw !important;
+  width: 100vw;
+  height: calc(44px + var(--border-top));
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+}
+
+#kakao-map-button-group {
+  margin: 50px 0px;
+  text-align: center;
+  max-width: 100% !important;
+}
+
+#kakako-map-button {
+  display: inline-block;
+  height: 53px;
+  padding: 0 21px 0 21px;
+  margin: 10px auto 0;
+  border-radius: 29px;
+  font-size: 0;
+  color: #000;
+  background-color: #ffea31;
+  text-align: left;
+}
+
+#kakako-map-button img {
+  height: 20px;
+  position: relative;
+  top: 15px;
+  left: 30px;
+}
+
+#kakao-map-button-label {
+  width: 200px;
+  float: right;
+  padding-top: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+#dv-kakaomap {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 1;
+}
+
+#dv-kakaomap-header .button-close-icon {
+  height: 100%;
+}
