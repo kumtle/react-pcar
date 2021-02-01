@@ -10,7 +10,6 @@ const port = 80;
 const webPath = path.join(__dirname, '/build');
 const phpPath = path.join(__dirname, '/../phpMyAdmin');
 //const proxy = require('http-proxy-middleware');
-var request = require('request');
 
 /*app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);*/
