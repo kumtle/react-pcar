@@ -51,6 +51,25 @@ app.get("*", function(req, res, next) {
 
 app.use(myLogger);*/
 
+function emailCheck(email) {
+  var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+  return re.test(email);
+}
+
+app.get('/api/auth/login', (req, res, next) => {
+  const { id, pw } = req.query;
+
+  if (!emailCheck(id)) {
+    res.send({status: 'fail', message : '아이디가 형식에 맞지 않습니다'});
+  }
+  else if (pw.length < 8) {
+    res.send({status: 'fail', message : '비밀번호는 8자리 이상이어야 합니다'});
+  }
+  else {
+    res.send({status: 'success', message : { id: id }});
+  }
+});
+
 const uri =             'http://api.visitkorea.or.kr/openapi/service/rest/KorService';//areaBasedList';
 const uriDetailCommon = 'http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailCommon';
 
