@@ -1,0 +1,202 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 275268,
+      "type": "VEC3",
+      "max": [
+        1.1487529277801514,
+        1.3306074142456055,
+        2.5515475273132324
+      ],
+      "min": [
+        -1.1487529277801514,
+        -1.3306074142456055,
+        -2.5104436874389648
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 275268,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 275268,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 275268,
+      "type": "VEC2",
+      "max": [
+        0.99852317571640015,
+        0.99828237295150757
+      ],
+      "min": [
+        0.0013183788396418095,
+        0.00091190205421298742
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 1183482,
+      "type": "SCALAR",
+      "max": [
+        275267.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2019.4.14f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "SM_CH_008.bin",
+      "byteLength": 17946792
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3303216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3303216,
+      "byteLength": 3303216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6606432,
+      "byteLength": 4404288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11010720,
+      "byteLength": 2202144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13212864,
+      "byteLength": 4733928
+    }
+  ],
+  "images": [
+    {
+      "uri": "M_CH_008_N.png",
+      "name": "M_CH_008_N"
+    }
+  ],
+  "materials": [
+    {
+      "normalTexture": {
+        "index": 0
+      },
+      "name": "M_CH_008"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "SM_CH_008"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "rotation": [
+        -0.7071068,
+        0.0,
+        0.0,
+        -0.7071068
+      ],
+      "scale": [
+        1.0,
+        1.00000024,
+        1.00000024
+      ],
+      "name": "SM_CH_008"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        -8.54,
+        2.68
+      ],
+      "name": "SM_CH_008"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "SM_CH_008"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "M_CH_008_N"
+    }
+  ]
+}
